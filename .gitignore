@@ -1,3 +1,9 @@
+# Source images #
+/.source
+
+# Test files #
+/main/.tests
+
 # Archives #
 *.7z
 *.gz
@@ -11,6 +17,8 @@
 ._*
 .Trashes
 ehthumbs.db
+thumbs.db
+thumb.db
 
 # Windows Contributors #
 Thumbs.db
