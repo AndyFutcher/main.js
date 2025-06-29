@@ -1,9 +1,3 @@
-# Source images #
-/.source
-
-# Test files #
-/main/.tests
-
 # Archives #
 *.7z
 *.gz
@@ -11,14 +5,8 @@
 *.tgz
 *.zip
 
-# OS generated files #
-.DS_Store
-.DS_Store?
-._*
-.Trashes
-ehthumbs.db
-thumbs.db
-thumb.db
+# Hidden files #
+.*
 
 # OS generated files #
 .Trashes
