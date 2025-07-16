@@ -20,5 +20,6 @@ ehthumbs.db
 thumbs.db
 thumb.db
 
-# Windows Contributors #
-Thumbs.db
+# OS generated files #
+.Trashes
+thumbs.db

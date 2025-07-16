@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Main.HTML Page Customisation: START -->
+	<!-- Page Encoding -->
+	<meta charset="UTF-8" />
+	
+	<!-- Page Meta -->
+	<title>Blank Main JS Snippet</title>
+	<meta name="author" content="Your Name">
+	<meta name="website" content="Your Website" />
+	<meta name="description" content="Blank test page for Main JS Project including the snippet for maximum performance!" />
+	<meta name="robots" content="noindex,nofollow" />
+	<link rel="canonical" href="https://www.mainjs.dev/install-snippet.html" />
+	
+	<!-- Custom Main.HTML & Main.JS -->
+	<meta property="main.js.example" content="new value here" />
+	<!-- Main.HTML Page Customisation: END -->
+	
+	<!-- Main.JS v0.6 Snippet: START -->
+	<script> /* GNU General Public License v3.0
+		# Main JS is a modern, lightweight and portable website JavaScript framework, Copyright (C) 2025 Andy Futcher. See <https://mainjs.org/> for more
+		# This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+		# This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>. 
+		# Main.JS not modified from original. Date: 2025-07-07 ### */
+		var main={version:{main:0,minor:6,patch:0,branch:'dev',htmlless:true},meta:{},js:{proto:{fs:'/',fs2:'//',https:'https:',http:'http:',file:'file:'},create:{base:document.createElement('base'),theme:document.createElement('link'),script:document.createElement('script'),style:document.createElement("style")},css:{loaded:false},regex:{base:/.*(\:\/\/|googleapis\.com\/|public\B|-html\b|-js\b|-dev\b|-rc\b|-main\b|-com\b|-com-[a-z]|-co-[a-z])[a-zA-Z0-9\-\_\.]*/i}}}; // Declare Main Object
+		main.meta.theme=main.meta.theme||document.querySelector('meta[name="theme"]')||document.querySelector('meta[property$=".theme"]')||'default';if(main.meta.theme.content){main.meta.theme=main.meta.theme.content;}; // Webpages Canonical URL
+		main.meta.canonical=main.meta.canonical||document.querySelector('link[rel="canonical"]')||window.location.pathname.match(main.js.regex.base)[0];if(main.meta.canonical.href){main.meta.canonical=main.meta.canonical.href;}; // Webpages Canonical URL
+		switch(window.location.protocol){case main.js.proto.https:case main.js.proto.file:main.js.create.base.href=(window.location.protocol+main.js.proto.fs2+window.location.pathname).match(main.js.regex.base)[0]+main.js.proto.fs; // Local Execution
+		break;case main.js.proto.http:window.location.href=main.js.proto.https+window.location.host+window.location.pathname; // Redirect to HTTPS Version
+		break;default:window.location.href=main.meta.canonical; // Unknown Protocol, Redirect to Canonical
+		};main.base=main.js.create.base.href;document.head.appendChild(main.js.create.base); // Inject Base Tag
+		Object.assign(main.js.create.theme,main.version.htmlless||{id:"main-theme",rel:"preload",as:"style",href:"main/theme/"+main.meta.theme+"?ver="+Object.values(main.version).join('')});document.head.appendChild(main.js.create.theme).setAttribute('onload',"this.onload=null;this.rel='stylesheet'"); // Inject Lazy Loaded CSS
+		Object.assign(main.js.create.style,{id:"main-css"});document.head.appendChild(main.js.create.style);main.js.css=Object.assign(main.js.css,{sheet:main.js.create.style.sheet.insertRule('main, footer { visibility: hidden; }',0),index:{loading:0}}); // Inject Main CSS Head
+		Object.assign(main.js.create.script,{id:"main-js",src:"main/main.js?ver="+Object.values(main.version).join(''),defer:'true'});document.head.appendChild(main.js.create.script); // Inject Deferred JS Script
+	</script><noscript><!-- !HTMLless <link rel="stylesheet" href="main/theme/default.css"> --></noscript>
+	<!-- Main.JS v0.6 Snippet: END -->
+	<!-- ### Main.JS insert add-on Main.JS scripts after this line. ### -->
+</head>
+<body>
+	<!-- Main.HTML Example Page -->
+	<dialog role="alertdialog" open>
+		<div id="blank-page" aria-label="Main JS Example Install">
+			<div>
+				<h1>Main JS Example Install: <small><code><strong>install-snippet</strong>.html</code></small></h1>
+				<p>This is a test page for the Main JS project, use this project to install Main.JS on a pre-exisiting website, if you are starting from scratch, see the Main HTML Project.<br><br>Next steps: open the console and type <code>main</code> to ensure everything is loaded correctly...</p>
+				<p class="float right">
+					<a href="https://www.mainhtml.dev/project" class="button">Main HTML</a>
+				</p>
+			</div>
+		</div>
+	</dialog>
+</body>
+</html>
